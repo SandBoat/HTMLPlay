@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 代码展示</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/htmlPlay.css">
+</head>
+
+<body>
+    <div class="head">
+        <div class="nav">
+            <div class="nav_ul">
+                <ul>
+                    <li>
+                        <a href="index.html"><span data-hover="HTML 代码展示">HTML 代码展示</span></a>
+                    </li>
+                    <li>
+                        <a href="use.html" class="active"><span data-hover="插件使用">插件使用</span></a>
+                    </li>
+                    <li>
+                        <a href="kz.html"><span data-hover="扩展">扩展</span></a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html"><span data-hover="关于我们">关于我们</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="container">
+            <div class="body_content">
+                <h1 class="title">基本使用</h1>
+                <p class="first">引用 htmlPlay.css 和 htmlPlay.js 后</p>
+                <p>将所需代码插入如下位置即可</p>
+                <div class="code">
+                    <pre class="codeHtml" data-codeNum="1">
+<div class="code">
+    <pre class="codeHtml" data-codeNum="1">
+
+        需要展示的代码放这里
+    </pre>
+</div>
+                    </pre>
+                </div>
+                <h1 class="title">自定义样式</h1>
+                <p class="first">添加 mycode类 即可添加自定义样式</p>
+                <div class="code mycode">
+                    <pre class="codeHtml" data-codeNum="1">
+<style>
+    /*展示代码覆盖效果*/
+    .code.mycode pre.codeHtml ol li:hover {
+        background-color: #DAD8D8;
+    }
+</style>
+<div class="code mycode">
+    <pre class="codeHtml">
+
+        <ol>
+            <li><p>需要展示的代码放这里</p></li>
+        </ol>
+     </pre>
+</div>
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+    <script type="text/javascript" src="js/htmlPlay.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML 代码展示</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/htmlPlay.css">
+</head>
+
+<body>
+    <div class="head">
+        <div class="nav">
+            <div class="nav_ul">
+                <ul>
+                    <li>
+                        <a href="index.html"><span data-hover="HTML 代码展示">HTML 代码展示</span></a>
+                    </li>
+                    <li>
+                        <a href="use.html"><span data-hover="插件使用">插件使用</span></a>
+                    </li>
+                    <li>
+                        <a href="kz.html" class="active"><span data-hover="扩展">扩展</span></a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html"><span data-hover="关于我们">关于我们</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="body">
+        <div class="container">
+            <div class="body_content">
+                <h1 class="title">扩展工具</h1>
+                <p class="first">添加对应工具块</p>
+                <div class="code mycode">
+                    <pre class="codeHtml" data-codeNum="1">
+<div class="code mycode">
+    <div class="codeTool">
+        这里添加扩展工具
+    </div>
+    <pre class="codeHtml" data-codeNum="1">
+
+    </pre>
+</div>
+                    </pre>
+                </div>
+                <h1 class="title">展示代码折叠</h1>
+                <div class="code">
+                    <div class="codeTool">
+                        <div class="codeHide toolDiv">
+                            <a href="javascript:void(0);" onclick="collapseCode(this)" title="折叠" data-collapseStatus="">
+                                <img class="code_img_closed" src="img/ContractedBlock.gif" alt="展开" style="display: none;">
+                                <img class="code_img_opened" src="img/ExpandedBlockStart.gif" alt="折叠" style="display: block;" >
+                            </a>
+                        </div>
+                    </div>
+                    <pre class="codeHtml">
+<div class="code">
+    <div class="codeTool">
+        <div class="codeCopy">
+            <div class="codeHide toolDiv">
+                <a href="javascript:void(0);" onclick="collapseCode(this)" title="折叠" data-collapseStatus="">
+                    <img class="code_img_closed" src="img/ContractedBlock.gif" alt="展开" style="display: none;">
+                    <img class="code_img_opened" src="img/ExpandedBlockStart.gif" alt="折叠" style="display: block;" >
+                </a>
+            </div>
+        </div>
+    </div>
+    <pre class="codeHtml">
+
+    </pre>
+ </div>
+                    </pre>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+    <script type="text/javascript" src="js/htmlPlay.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+.code {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.code {
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+}
+
+
+/*工具样式*/
+
+.codeTool {
+    padding: 2px 5px;
+    height: 20px;
+}
+
+.codeTool .toolDiv {
+    float: left;
+    /*width: 20px;*/
+    /*height: 20px;*/
+}
+
+
+/*展示代码样式*/
+
+.code pre.codeHtml {
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    display: block;
+    padding: 8px 0 0 8px;
+    -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+    -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+    box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0;
+    border: 1px solid #e1e1e8;
+}
+
+.code pre.codeHtml:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0
+}
+
+.code pre.codeHtml ol {
+    margin-left: 30px;
+    list-style-type: decimal;
+    color: #bebec5;
+}
+
+.code pre.codeHtml ol li {
+    padding-left: 12px;
+    color: #bebec5;
+    line-height: 20px;
+    text-shadow: 0 1px 0 #fff;
+}
+
+.code pre.codeHtml p {
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-size: 16px;
+    color: #48484c;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+
+/*标签*/
+
+.code pre.codeHtml p span.code_tag {
+    color: teal;
+}
+
+
+/*属性名(attribute-name)*/
+
+.code pre.codeHtml p span.code_atn {
+    color: teal;
+}
+
+
+/*属性值(attribute-value)*/
+
+.code pre.codeHtml p span.code_atv {
+    color: #D14;
+}
+
+
+/************************************ 自定义样式 *********************************/
+
+
+/*展示代码覆盖效果*/
+
+.code.mycode pre.codeHtml ol li:hover {
+    background-color: #DAD8D8;
+}
